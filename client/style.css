@@ -1,0 +1,27 @@
+#message-container{
+  border:1px solid black;
+  width:90%;
+  margin:auto;
+  height:60vh;
+}
+
+#form{
+  width:90%;
+  margin:20px  auto 0 auto;
+
+}
+
+.inputGroup{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+#message-input,#room-input{
+  flex:1;
+  margin:5px 10px;
+  height:20px;
+}
+
+label{
+  min-width:60px;
+}
